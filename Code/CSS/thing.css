@@ -1,0 +1,19 @@
+.box {
+    background-color: aquamarine;
+}
+
+.btn {
+    background-color: aqua;
+}
+
+#btnOne {
+    background-color: blueviolet;
+}
+
+.rotatedbtn {
+    transform: rotate(90deg);
+}
+
+.changebox {
+    background-color: azure;
+}
