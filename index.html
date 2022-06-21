@@ -1,18 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Title -->
-    <title>Starter Website</title>
+    <title>BIOGRAPHY: HOME</title>
+   
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-    <!-- Style -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Script -->
-    <script src="script.js" defer></script>
-  </head>
-  <body>
-    <!-- Here's your starter project! Enjoy! -->
-  </body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./website.css">
+</head>
+<body>
+    <div class="Header"> 
+        <div class="Title"> 
+            <h1 onclick="document.location='index.html'"> Biography </h1>
+        </div>
+        <div class="Navigation">
+            <button onclick="document.location='Travel.html'">
+                <span class="material-symbols-outlined">
+                    explore
+                    </span>
+            </button>
+            <button onclick="document.location='Myself.html'"> 
+                <span class="material-symbols-outlined">
+                    account_circle
+                    </span>
+            </button>
+            <button onclick="document.location='Pets.html'"> 
+                <span class="material-symbols-outlined">
+                    pets
+                    </span>
+            </button> 
+            <button onclick="document.location='Family.html'">
+                <span class="material-symbols-outlined">
+                    cottage
+                    </span>
+            </button> 
+            <button onclick="document.location='Projects.html'"> 
+                <span class="material-symbols-outlined">
+                    person
+                    </span>
+            </button> 
+        </div>
+
+        <div class="Page">
+          <button id="header"> HOME </button>
+        </div>
+    </div>
+    
+    <div class="IntroductionHome">
+        <div class="Travel">
+            <div class="TravelPictures"></div>
+            <div class="Traveltext">
+                <p> Places i've traveled to over the years. </p>
+                <button onclick="document.location='Travel.html'">
+                    <span class="material-symbols-outlined">
+                        explore
+                        </span>
+                </button>
+            </div>
+        </div>
+
+        <div class="Myself">
+            <div class="MyselfPicturesTop">
+                <img src="./Images/Best-Strategy-Simulation-Decade-08-Stardew-Valley.jpg" alt="fillerimg">
+                <img src="./Images/BOTW-Share_icon.jpg" alt="fillerimg">
+                <img src="./Images/capsule_616x353.jpg" alt="fillerimg">
+            </div>
+            <div class="MyselfText">
+                <p> Hobbbies and fixations that ive been particularly obsessed with. </p>
+                <button onclick="document.location='Myself.html'"> 
+                    <span class="material-symbols-outlined">
+                        account_circle
+                        </span>
+                </button>
+            </div>
+            <div class="MyselfPicturesBottom">
+                <img src="./Images/kfix4f5hHteMP5TqDmC9fk.jpg" alt="fillerimg">
+                <img src="./Images/hollow knight.jpg" alt="fillerimg">
+                <img src="./Images/6102a902f350d5001959939b.webp" alt="fillerimg">
+            </div>
+        </div>
+    </div>
+
+    <div class="Pets">
+        
+    </div>
+
+
+</body>
 </html>
